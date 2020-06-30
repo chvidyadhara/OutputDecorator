@@ -1,0 +1,8 @@
+
+<div>
+<app-child (mydata)="parentMethod($event)"></app-child>
+<p>parent works!</p>
+<div *ngFor="let userd of childdata">
+<h2>{{userd.name}}</h2>
+</div>
+</div>
